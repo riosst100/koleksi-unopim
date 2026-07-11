@@ -21,6 +21,7 @@ return [
         Webkul\DataTransfer\Providers\ModuleServiceProvider::class,
         Webkul\HistoryControl\Providers\ModuleServiceProvider::class,
         Webkul\Notification\Providers\ModuleServiceProvider::class,
+        Koleksi\ProductDatabase\Providers\ModuleServiceProvider::class,
         Webkul\Product\Providers\ModuleServiceProvider::class,
         Webkul\User\Providers\ModuleServiceProvider::class,
         Webkul\MagicAI\Providers\ModuleServiceProvider::class,

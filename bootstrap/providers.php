@@ -18,6 +18,7 @@ use Webkul\HistoryControl\Providers\HistoryControlServiceProvider;
 use Webkul\Installer\Providers\InstallerServiceProvider;
 use Webkul\MagicAI\Providers\MagicAIServiceProvider;
 use Webkul\Notification\Providers\NotificationServiceProvider;
+use Koleksi\ProductDatabase\Providers\ProductDatabaseServiceProvider;
 use Webkul\Product\Providers\ProductServiceProvider;
 use Webkul\Theme\Providers\ThemeServiceProvider;
 use Webkul\User\Providers\UserServiceProvider;
@@ -43,6 +44,7 @@ return [
     InstallerServiceProvider::class,
     MagicAIServiceProvider::class,
     NotificationServiceProvider::class,
+    ProductDatabaseServiceProvider::class,
     ProductServiceProvider::class,
     ThemeServiceProvider::class,
     UserServiceProvider::class,
